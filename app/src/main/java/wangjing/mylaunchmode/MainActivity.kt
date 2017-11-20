@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 //        btnJump.setOnClickListener {
 //            Toast.makeText(this, "跳转", Toast.LENGTH_LONG).show()
 //        }
+        
         btnJump.setOnClickListener(this)
         btnJump2.setOnClickListener(this)
     }
